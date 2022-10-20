@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     default_random_engine* gptr;
-    gptr = new default_random_engine(time(NULL));
+    gptr = new default_random_engine(time(nullptr));
     uniform_int_distribution<int> Idist(0, 100);
     uniform_int_distribution<int> Cdist(0, 25);
 
@@ -18,7 +18,7 @@ int main()
     root->setLetter('M');
     int n, v;
     char c;
-    cout << "add how many alphas?" << endl;
+    cout << "add how many values?" << endl;
     cin >> n;
 
     for (int i = 0; i < n; i++)
